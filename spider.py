@@ -174,7 +174,7 @@ foa_df = soup_to_df(soup)
 #foa_df = pd.read_csv('foa_df.csv')
 
 
-# ! Filter by dates and keywords
+# ! Filter by dates & keywords 
 def to_date(date_str):
     """Convert date string from database into date object"""
     # ensure date string is a string
